@@ -35,6 +35,9 @@ export const metadata: Metadata = {
     description:
       "Direct, no-fluff answers to the specific vaping questions UK vapers actually search for, plus a plain-English glossary of vaping terms.",
   },
+  verification: {
+    google: "KoUfidhw6gpKWNWF-Dd4ZHmlrrdhqvaF7btomKTeRXg",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
