@@ -75,7 +75,16 @@ export default function Page() {
         Occasionally a coil that was primed correctly still tastes slightly harsh for the first
         few puffs simply because the cotton is dense and needs a little longer to fully wet
         through. This should settle within the first few draws; if it doesn't improve, treat it
-        as one of the causes above instead.
+        as one of the causes above instead. A scorched dry-hit taste is different from the
+        metallic or plasticky taste a lot of new coils have straight out of the packet, which is
+        covered in{" "}
+        <Link
+          href="/questions/why-does-my-new-vape-taste-weird-at-first"
+          className="font-semibold underline underline-offset-4"
+        >
+          why does my new vape taste weird at first
+        </Link>
+        .
       </P>
 
       <Table>

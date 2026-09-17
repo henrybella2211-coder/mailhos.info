@@ -27,6 +27,8 @@ export default function QuestionsIndexClient() {
               {category === "Troubleshooting" &&
                 "Fixing the specific problems that come up with day-to-day vaping."}
               {category === "Terminology" && "Plain-English definitions of common vaping terms."}
+              {category === "Rules & Travel" &&
+                "UK regulations and practical guidance for buying, carrying and travelling with vapes."}
             </p>
             <div className="mt-4">
               <Accordion items={items} />

@@ -1,4 +1,4 @@
-export type Category = "Basics" | "Troubleshooting" | "Terminology";
+export type Category = "Basics" | "Troubleshooting" | "Terminology" | "Rules & Travel";
 
 export interface ArticleMeta {
   slug: string;
@@ -38,7 +38,11 @@ export const articles: ArticleMeta[] = [
       width: 1400,
       height: 933,
     },
-    relatedSlugs: ["how-often-should-i-change-my-vape-coil", "mtl-and-dtl-what-do-these-terms-mean"],
+    relatedSlugs: [
+      "how-often-should-i-change-my-vape-coil",
+      "mtl-and-dtl-what-do-these-terms-mean",
+      "why-does-my-new-vape-taste-weird-at-first",
+    ],
   },
   {
     slug: "mtl-and-dtl-what-do-these-terms-mean",
@@ -80,6 +84,46 @@ export const articles: ArticleMeta[] = [
     },
     relatedSlugs: ["why-does-my-vape-taste-burnt", "mtl-and-dtl-what-do-these-terms-mean"],
   },
+  {
+    slug: "why-does-my-new-vape-taste-weird-at-first",
+    title: "Why does my new vape taste weird at first?",
+    category: "Troubleshooting",
+    shortAnswer:
+      "A slightly odd, metallic or plasticky taste from a brand-new coil is almost always residue from manufacturing burning off during the first few uses, not a fault. Priming the coil properly before you vape on it, and giving it a few puffs at a lower wattage, usually clears the taste within the first tank. If a harsh or chemical taste doesn't improve after a full tank, or is joined by gurgling or leaking, that points to a faulty coil rather than normal break-in.",
+    excerpt:
+      "New-coil break-in taste explained: why it happens, how to prime a coil properly before first use, how long it should take to settle, and when it signals a faulty coil.",
+    readTime: "6 min read",
+    datePublished: "2026-08-22",
+    dateModified: "2026-09-15",
+    dateModifiedDisplay: "15 September 2026",
+    image: {
+      src: "/images/vape-device-new-coil-first-use.jpg",
+      alt: "Close-up of a vape mod and tank with its display lit up and vapour drifting past",
+      width: 1400,
+      height: 2100,
+    },
+    relatedSlugs: ["why-does-my-vape-taste-burnt", "how-often-should-i-change-my-vape-coil"],
+  },
+  {
+    slug: "can-you-take-a-vape-in-hand-luggage-on-a-uk-flight",
+    title: "Can you take a vape in hand luggage on a UK flight?",
+    category: "Rules & Travel",
+    shortAnswer:
+      "Yes. UK aviation rules require vapes, e-cigarettes and any spare batteries to travel in hand luggage, never in the hold, because of the fire risk lithium batteries pose in the cargo hold. The device should be switched off (or locked, if it has a lock function) so it can't activate by accident, and must not be charged on board. E-liquid counts as a liquid, so it needs to fit within the liquid container limit that applies at your departure airport.",
+    excerpt:
+      "UK rules on flying with a vape: why it must go in hand luggage and never the hold, the e-liquid liquid limit, and what to check before you travel.",
+    readTime: "6 min read",
+    datePublished: "2026-08-28",
+    dateModified: "2026-09-17",
+    dateModifiedDisplay: "17 September 2026",
+    image: {
+      src: "/images/vape-airport-terminal-suitcase-flight-board.jpg",
+      alt: "Hard-shell suitcase in an airport terminal with departure boards in the background",
+      width: 1400,
+      height: 1867,
+    },
+    relatedSlugs: ["why-does-my-new-vape-taste-weird-at-first"],
+  },
 ];
 
 export function getArticle(slug: string): ArticleMeta | undefined {
@@ -92,4 +136,9 @@ export function getRelated(article: ArticleMeta): ArticleMeta[] {
     .filter((a): a is ArticleMeta => Boolean(a));
 }
 
-export const categoryOrder: Category[] = ["Basics", "Troubleshooting", "Terminology"];
+export const categoryOrder: Category[] = [
+  "Basics",
+  "Troubleshooting",
+  "Terminology",
+  "Rules & Travel",
+];
