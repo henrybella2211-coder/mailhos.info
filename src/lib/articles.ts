@@ -122,7 +122,34 @@ export const articles: ArticleMeta[] = [
       width: 1400,
       height: 1867,
     },
-    relatedSlugs: ["why-does-my-new-vape-taste-weird-at-first"],
+    relatedSlugs: [
+      "why-does-my-new-vape-taste-weird-at-first",
+      "al-fakher-50k-your-questions-answered",
+    ],
+  },
+  {
+    slug: "al-fakher-50k-your-questions-answered",
+    title: "Al Fakher 50K: your questions answered",
+    category: "Basics",
+    shortAnswer:
+      "The Al Fakher HyperMax Prime 50K is a rechargeable pod kit, not a disposable: you recharge the built-in battery over USB-C and snap in a new pod when one runs out, rather than throwing the whole device away. Al Fakher's 'up to 50,000 puffs' figure is a manufacturer estimate covering the device plus every replacement pod used over its life, not a number any single pod or battery delivers on its own. It typically lasts around a day of regular use per charge and takes about 35 minutes to fully recharge.",
+    excerpt:
+      "What the Al Fakher 50K actually is, what its 50,000-puff figure really measures, how the battery and charging work, what it costs, and why it's still legal to buy in the UK after the disposable ban.",
+    readTime: "7 min read",
+    datePublished: "2026-09-05",
+    dateModified: "2026-09-18",
+    dateModifiedDisplay: "18 September 2026",
+    image: {
+      src: "/images/vape-pod-kit-rechargeable-device.jpg",
+      alt: "A rechargeable pod vape kit with a small display, standing upright on a light surface",
+      width: 1600,
+      height: 2400,
+    },
+    relatedSlugs: [
+      "can-you-take-a-vape-in-hand-luggage-on-a-uk-flight",
+      "how-often-should-i-change-my-vape-coil",
+      "mtl-and-dtl-what-do-these-terms-mean",
+    ],
   },
 ];
 

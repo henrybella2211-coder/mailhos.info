@@ -142,10 +142,16 @@ export default function Page() {
 
       <P>
         Since single-use disposable vapes were banned from sale in the UK from 1 June 2025, most
-        UK vapers now travel with a rechargeable pod kit rather than a disposable, which is worth
-        bearing in mind if you're packing an older disposable device bought before the ban: the
-        same hand-luggage-only rule for its battery still applies regardless of when or where it
-        was bought.
+        UK vapers now travel with a{" "}
+        <Link
+          href="/questions/al-fakher-50k-your-questions-answered"
+          className="font-semibold underline underline-offset-4"
+        >
+          rechargeable pod kit
+        </Link>{" "}
+        rather than a disposable, which is worth bearing in mind if you're packing an older
+        disposable device bought before the ban: the same hand-luggage-only rule for its battery
+        still applies regardless of when or where it was bought.
       </P>
 
       <H2>Practical checklist before you travel</H2>
