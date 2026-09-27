@@ -126,7 +126,14 @@ export default function Page() {
         </LI>
         <LI>
           <strong>Nic salt:</strong> a form of nicotine that's smoother at higher strengths,
-          commonly used in MTL pod kits.
+          commonly used in MTL pod kits. Sold in 5mg, 10mg and 20mg strengths, see{" "}
+          <Link
+            href="/questions/nic-salts-5mg-10mg-or-20mg-which-one-do-i-need"
+            className="font-semibold underline underline-offset-4"
+          >
+            which strength you might need
+          </Link>{" "}
+          for a fuller breakdown.
         </LI>
         <LI>
           <strong>Freebase (nicotine):</strong> the traditional nicotine form, usually sold at

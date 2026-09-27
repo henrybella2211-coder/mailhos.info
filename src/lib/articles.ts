@@ -62,7 +62,11 @@ export const articles: ArticleMeta[] = [
       width: 1400,
       height: 934,
     },
-    relatedSlugs: ["why-does-my-vape-taste-burnt", "how-often-should-i-change-my-vape-coil"],
+    relatedSlugs: [
+      "why-does-my-vape-taste-burnt",
+      "how-often-should-i-change-my-vape-coil",
+      "nic-salts-5mg-10mg-or-20mg-which-one-do-i-need",
+    ],
   },
   {
     slug: "how-often-should-i-change-my-vape-coil",
@@ -149,6 +153,29 @@ export const articles: ArticleMeta[] = [
       "can-you-take-a-vape-in-hand-luggage-on-a-uk-flight",
       "how-often-should-i-change-my-vape-coil",
       "mtl-and-dtl-what-do-these-terms-mean",
+    ],
+  },
+  {
+    slug: "nic-salts-5mg-10mg-or-20mg-which-one-do-i-need",
+    title: "Nic salts: 5mg, 10mg or 20mg — which one do I need?",
+    category: "Basics",
+    shortAnswer:
+      "5mg, 10mg and 20mg are nicotine concentrations per millilitre, not total doses, and 20mg is the UK's regulatory cap for e-liquid. Which one suits you depends mainly on how much nicotine you're already used to from smoking or vaping: many heavier smokers start nearer 20mg, while lighter smokers and existing vapers often find 5mg or 10mg enough. Nic salts are generally described as smoother than freebase nicotine at a given strength, and starting lower before stepping up tends to be more comfortable than starting high, though nicotine needs vary from person to person.",
+    excerpt:
+      "What 5mg, 10mg and 20mg nic salt strengths actually mean, how to estimate which one fits your habits, why nic salts feel smoother than freebase, and why starting lower is usually the more comfortable route.",
+    readTime: "6 min read",
+    datePublished: "2026-09-27",
+    dateModified: "2026-09-27",
+    dateModifiedDisplay: "27 September 2026",
+    image: {
+      src: "/images/vape-nic-salt-bottle-and-pod-device.jpg",
+      alt: "A 10ml nic salt e-liquid bottle standing next to a compact pod vape device",
+      width: 1600,
+      height: 2018,
+    },
+    relatedSlugs: [
+      "mtl-and-dtl-what-do-these-terms-mean",
+      "al-fakher-50k-your-questions-answered",
     ],
   },
 ];
